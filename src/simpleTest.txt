@@ -1,0 +1,11 @@
+Faits :
+grippe=false
+symptome=1
+fievre=37
+essouflement=false
+toux=false
+
+Regles :
+symptome>0 => maladie
+maladie ET toux=>grippe
+maladie ET grippe=false ET fievre>35 =>bronchite

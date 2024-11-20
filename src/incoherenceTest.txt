@@ -1,0 +1,9 @@
+Faits :
+not grippe
+fievre=40
+toux=false
+not maladie
+
+Regles :
+grippe=false ET fievre>37 => maladie=true
+maladie=true ET toux=false => bronchite = true 

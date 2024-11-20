@@ -1,0 +1,13 @@
+Faits :
+A>32
+B=42
+C=hello
+not D
+E=false
+tes
+
+Regles :
+A=true ET B=42 => F=valid
+C=hello ET E=false => G=success
+F=valid ET G=success => H>100
+
